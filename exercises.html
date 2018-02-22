@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Brogan" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+
+    <title>Quadly Quandries</title>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <h1>Quadly Quandaries</h1>
+        </div>
+
+        <!-- Responsive Nav Bar -->
+        <div class="col-3 menu">
+            <!-- Home -->
+            <a href="index.html">Home</a>
+            <!-- Music Dropdown Button -->
+            <a class="active" onclick="toggleShowMusic()" id="music-btn">Music
+                <i class="fa fa-caret-down"></i>
+            </a>
+            <!-- Music Dropdown Container -->
+            <div class="dropdown-container" id="music-container">
+                <a href="exercises.html" class="active">Exercises</a>
+                <a href="licks.html">Licks</a>
+            </div>
+            <!-- Resources Dropdown Button -->
+            <a onclick="toggleShowResources()" id="resources-btn">Resources
+                <i class="fa fa-caret-down"></i>
+            </a>
+            <!-- Resources Dropdown Container -->
+            <div class="dropdown-container" id="resources-container">
+                <a href="tuning.html">Tuning Guide</a>
+                <a href="technique.html">Technique</a>
+                <a href="books-links.html">Books</a>
+            </div>
+            <a href="about.html">About</a>
+        </div>
+
+        <!-- Responsive Main Area -->
+        <div class="col-9">
+            <h1>Exercises</h1>
+
+            <p>
+                Here you can find helpful exercises to work on getting around
+                the drums! All are available for free, but if you're feeling
+                generous, donations are accepted! HEHEHE!!
+            </p>
+            <p>
+                <a href="VD Quads.pdf">VD</a>
+            </p>
+        </div>
+    </body>
+</html>

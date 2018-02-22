@@ -1,0 +1,39 @@
+Tenor drum tuning.
+
+Tuning schemes:
+- Fully Diminished 7th
+	Root, Minor third, Diminished fifth, Diminished seventh
+	Integer Values {0, 3, 6, 9}
+- Minor 7th
+	Root, Minor third, Perfect fifth, Minor seventh
+	Integer Values {0, 3, 7, 10}
+- Minor major 7th
+	Root, Minor third, Perfect fifth, Major seventh
+	Integer Notation {0, 3, 7, 11}
+- Major 7th
+	Integer Notation {0, 4, 7, 11}
+
+Evans Example
+	14, 13, 12, 10, 8, 6
+	Bb, D, F#, A, C#, F#
+	{0, 4, 8, 11, 15, 20}
+	Root, Major 3rd → Major 3rd → minor 3rd → Major 3rd, Perfect 4th
+
+Bill Bachmann
+	{0, 6, 9, 12, 16}
+
+Gateway / Brian Graham
+	{0, 3, 6, 9, 12}
+
+0 root
+1 minor 2nd
+2 Major 2nd
+3 minor 3rd
+4 Major 3rd
+5 Perfect 4th
+6 Tri-Tone
+7 Perfect 5th
+8 minor 6th
+9 Major 6th
+10 minor 7th
+11 Major 7th

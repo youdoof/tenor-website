@@ -1,0 +1,73 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/* Sets up box sizing for the webpage */
+* {
+    box-sizing: border-box;
+}
+
+/* Establishes the font family for the webpage */
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+/* Sets the float and padding for any tag with the class col setup below */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* Sets up a grid to assist in layout of the webpage */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Media call to check if the screen is the size of a mobile device */
+@media only screen and (max-width: 720px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* Header style */
+.header {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+/* Change link properties when currently active */
+.menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Static style for links in the responsive menu */
+.menu a {
+    display: block;
+    background-color: #f1f1f1;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hover style for links in the responsive menu */
+.menu a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+}

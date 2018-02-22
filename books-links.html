@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Brogan" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+
+    <title>Quadly Quandaries</title>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <h1>Quadly Quandaries</h1>
+        </div>
+
+        <!-- Responsive Nav Bar -->
+        <div class="col-3 menu">
+            <!-- Home -->
+            <a href="index.html">Home</a>
+            <!-- Music Dropdown Button -->
+            <a onclick="toggleShowMusic()" id="music-btn">Music
+                <i class="fa fa-caret-down"></i>
+            </a>
+            <!-- Music Dropdown Container -->
+            <div class="dropdown-container" id="music-container">
+                <a href="exercises.html">Exercises</a>
+                <a href="licks.html">Licks</a>
+            </div>
+            <!-- Resources Dropdown Button -->
+            <a class="active" onclick="toggleShowResources()" id="resources-btn">Resources
+                <i class="fa fa-caret-down"></i>
+            </a>
+            <!-- Resources Dropdown Container -->
+            <div class="dropdown-container" id="resources-container">
+                <a href="tuning.html">Tuning Guide</a>
+                <a href="technique.html">Technique</a>
+                <a class="active" href="books-links.html">Books</a>
+            </div>
+            <a href="about.html">About</a>
+        </div>
+
+        <!-- Responsive Main Area -->
+        <div class="col-9">
+            <h1>Books &amp; Links</h1>
+
+            <p>
+                Below are recommended resource materials to invest in for your
+                personal study and for teaching your students.
+            </p>
+        </div>
+    </body>
+</html>
