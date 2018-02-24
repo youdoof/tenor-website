@@ -25,6 +25,10 @@ Bill Bachmann
 Gateway / Brian Graham
 	{0, 3, 6, 9, 12}
 
+SCV 2004
+	A, C#/Db, E, G, Bb
+	{0, 4, 7, 10, 13}
+
 0 root
 1 minor 2nd
 2 Major 2nd
@@ -37,3 +41,4 @@ Gateway / Brian Graham
 9 Major 6th
 10 minor 7th
 11 Major 7th
+12 Octave
